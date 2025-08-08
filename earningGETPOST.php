@@ -32,6 +32,14 @@
 
 <?php
 
+/*
+Forms submit data only when you press the submit button.
+Until then, PHP doesn’t know about the form fields.
+
+So, without isset(), PHP might try to access something
+that isn’t there yet, causing a warning.
+*/
+
 // Handle GET form (first form)
 if (isset($_GET["username"]) && isset($_GET["pass"])) {
     echo "GET Username: " . $_GET["username"] . "<br>";
