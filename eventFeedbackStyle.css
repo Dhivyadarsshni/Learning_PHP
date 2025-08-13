@@ -1,0 +1,51 @@
+body{
+    background-color: tan;
+    font-family: Arial,sans-serif;
+    padding: 20px;
+}
+h2{
+    font-family: cursive;
+    font-style: italic;
+    color: white;
+}
+
+form{
+    padding: 10px;
+    background-color: beige;
+    border-radius: 5px;
+    border: 7px solid black;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+
+label{
+    font-weight: bold;
+
+}
+
+input[type="text"], select {
+    width: 75%; 
+    padding: 8px; 
+    margin: 5px 0 15px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049; 
+}
+h4{
+    font-family: Arial, sans-serif;
+    margin-left:50px;
+    margin-right:50px;
+}

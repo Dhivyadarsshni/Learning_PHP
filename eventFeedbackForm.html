@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="eventFeedbackStyle.css">
+    <title>Event Feedback Form</title>
+</head>
+<body>
+    
+    <h2>Event Feedback Form</h2>
+    <hr>
+
+    <form action="eventFeedback.php" method="post">
+
+        <label>First Name: </label>
+        <input type = "text" placeholder="First Name" id ="firstname" name ="firstname">
+
+        <br><br>
+        <label>Registration Number: </label>
+        <input type = "text" placeholder="Registration Number" id ="regno" name ="regno">
+
+        <br><br>
+        <label>How satisfied you are with this Annual meet?</label>
+        <select id="rating" name = "rating">
+            <option value="one">1</option>
+            <option value="two">2</option>
+            <option value="three">3</option>
+            <option value="four">4</option>
+            <option value="five">5</option>
+        </select>
+
+        <br><br>
+        <label>Select your favourite segment: </label>
+        <select id = "segment" name="segment">
+            <option value = "none">None</option>
+            <option value = "dance">Dance</option>
+            <option value = "speech">Speech</option>
+            <option value = "workshop">Hands on Workshop</option>
+            <option value = "buffet">Buffet</option>
+        </select>
+
+        <br><br>
+        <label>Any feedback to improvise?: </label>
+        <input type = "text" placeholder="Type here" id ="feedback" name ="feedback">
+
+        <br><br>
+        <input type ="submit" name = "submit" value = "Submit feedback">
+
+        <hr>
+        <h4>Book your slot on www.eventplaners.com</h4>
+
+    </form>
+    
+</body>
+</html>
