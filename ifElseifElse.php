@@ -81,7 +81,7 @@ if (isset($_POST["calculate"])){
         "Monday" , "Tuesday" ,"Wednesday", "Thursday", "Friday" =>$day_segragated ="Weekday",
         "Saturday","Sunday"=>$day_segragated ="Weekend",
         default=>$result = "Invalid operation selected!",
-    }
+    };
 
     //Step 2: Calculating the ticket price
     if($age<12 && $age>0){
