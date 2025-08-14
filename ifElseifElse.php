@@ -77,30 +77,10 @@ if (isset($_POST["calculate"])){
     $ticket_price =0;
 
     //Step 1: deciding as weekday or weekend
-    switch($day){
-        case "Monday":
-            $day_segragated ="Weekday";
-            break;
-        case "Tuesday":
-            $day_segragated ="Weekday";
-            break;
-        case "Wednesday":
-            $day_segragated ="Weekday";
-            break;
-        case "Thursday":
-            $day_segragated ="Weekday";
-            break;
-        case "Friday":
-            $day_segragated ="Weekday";
-            break;
-        case "Saturday":
-            $day_segragated ="Weekend";
-            break;
-        case "Sunday":
-            $day_segragated ="Weekend";
-            break;
-        default:
-            $result = "Invalid operation selected!";
+    match($day){
+        "Monday" , "Tuesday" ,"Wednesday", "Thursday", "Friday" =>$day_segragated ="Weekday",
+        "Saturday","Sunday"=>$day_segragated ="Weekend",
+        default=>$result = "Invalid operation selected!",
     }
 
     //Step 2: Calculating the ticket price
