@@ -11,7 +11,7 @@ This repository contains my PHP learning journey, from basics to mini-projects.
 - Control Structures (✓)  
 - Exercise:Calculator (✓)  
 - Arrays and types of arrays (✓) 
-- Built in Functions 
+- Built in Functions (✓) 
 - User Defined Functions
 - Scopes
 - Constants
