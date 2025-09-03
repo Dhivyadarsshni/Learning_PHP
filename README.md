@@ -12,7 +12,7 @@ This repository contains my PHP learning journey, from basics to mini-projects.
 - Exercise:Calculator (✓)  
 - Arrays and types of arrays (✓) 
 - Built in Functions (✓) 
-- User Defined Functions
+- User Defined Functions (✓) 
 - Scopes
 - Constants
 - Loops
