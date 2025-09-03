@@ -1,5 +1,5 @@
 <?php
-//to restrict the datatype 
+//to restrict the datatype for category 2
 declare(strict_types=1);
 
 #Types Of Functions
@@ -43,4 +43,36 @@ function manyParamaters(string $name = "name", $age , $pet){
 
 #function call
 manyParamaters("Dhivya", 22, "husky");
+echo "<hr>";
+
+//even if the placeholder is given , if the other two are non placeholders, then give name
+manyParamaters("",22,"kitten");
+echo "<hr>";
+
+#3.Declaring with return value
+echo "<h2>Function with return value</h2>";
+function returnAdd(int $num1, int $num2){
+    return $num1+$num2;
+}
+
+#function call
+//"Added value of {$num1} and {$num2} is {$result}"; this doesnt work as {$num1 and $num2} are declared locally to the function
+//so solution 1:
+echo "Added value of 3 and 4 is ". returnAdd(3,4);
+echo "<hr>";
+//solution 2:
+$num1 = 4;
+$num2 = 4;
+$result = returnAdd($num1, $num2);
+echo "Added value of {$num1} and {$num2} is {$result}";
+echo "<hr>";
+
+#3.1 Multiple return values
+function mathOps($num1,$num2){
+    return [$num1+$num2 ,$num1-$num2 ,$num1*$num2 ,$num1/$num2];
+}
+list($sum,$diff,$mul,$div)=mathOps(8,4);
+
+#function call
+echo "For numbers 8 and 4 → Sum: {$sum}, Difference: {$diff}, Multiplication: {$mul}, Division: {$div}";
 echo "<hr>";
