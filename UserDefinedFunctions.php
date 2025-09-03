@@ -7,7 +7,7 @@ echo "<h1> Types Of Functions </h1>";
 echo "<hr>";
 
 #1. Simple Function 
-echo "<h2>Simple Function</h2>";
+echo "<h2>1. Simple Function</h2>";
 function greet(){
     echo "Hello World! <br>";
 }
@@ -16,7 +16,7 @@ greet();
 echo "<hr>";
 
 #2. Parameterised Functions
-echo "<h2>Parameterised Function</h2>";
+echo "<h2>2. Parameterised Function</h2>";
 function greetings(string $name){
     echo "Hello {$name} , nice to meet you ! <br>";
 }
@@ -25,7 +25,7 @@ greetings("Dhivya");
 echo "<hr>";
 
 #2.1 With Placeholder and Datatype definition
-echo "<h2>Parameterised Function with Placeholder and Datatype definition</h2>";
+echo "<h2>2.1. Parameterised Function with Placeholder and Datatype definition</h2>";
 function greetingsWithPlaceholder(string $name = "name"){
     echo "Hello {$name} , nice to meet you ! <br>";
 }
@@ -35,7 +35,7 @@ greetingsWithPlaceholder("Dhivya");
 echo "<hr>";
 
 #2.2 Declaring with many parameters
-echo "<h2>Parameterised Function with Placeholder , datatype definition and with many parameters</h2>";
+echo "<h2>2.2. Parameterised Function with Placeholder , datatype definition and with many parameters</h2>";
 function manyParamaters(string $name = "name", $age , $pet){
     echo "Hello {$name} , nice to meet you ! <br>";
     echo "You are {$age} years old and your favourite pet is {$pet}";
@@ -50,7 +50,7 @@ manyParamaters("",22,"kitten");
 echo "<hr>";
 
 #3.Declaring with return value
-echo "<h2>Function with return value</h2>";
+echo "<h2>3. Function with return value</h2>";
 function returnAdd(int $num1, int $num2){
     return $num1+$num2;
 }
@@ -68,6 +68,7 @@ echo "Added value of {$num1} and {$num2} is {$result}";
 echo "<hr>";
 
 #3.1 Multiple return values
+echo "<b>Multiple return values</b> <br>";
 function mathOps($num1,$num2){
     return [$num1+$num2 ,$num1-$num2 ,$num1*$num2 ,$num1/$num2];
 }
@@ -78,24 +79,37 @@ echo "For numbers 8 and 4 → Sum: {$sum}, Difference: {$diff}, Multiplication: 
 echo "<hr>";
 
 #4.Passing Arguments by Reference 
-echo "<h2>Passing Arguments by Reference: function function_name(&\$var)</h2>";
+echo "<h2>4. Passing Arguments by Reference: function function_name(&\$var)</h2>";
 function addFivebyReference(&$num){
     $num+=5;
     echo "the value number inside the function is: ".$num;
 }
 
+#function call
 $value = 10;
 addFivebyReference($value); echo "<br>";
 echo "the value number outside the function is: ".$value;
 echo "<hr>";
 
 #5.Passing Arguments by Value 
-echo "<h2>Passing Arguments by Value: function function_name(\$var)</h2>";
+echo "<h2>5. Passing Arguments by Value: function function_name(\$var)</h2>";
 function addFivebyValue($num){
     $num+=5;
     echo "the value number inside the function is: ".$num;
 }
 
+#function call
 $value = 10;
 addFivebyValue($value); echo "<br>";
 echo "the value number outside the function is: ".$value;
+echo "<hr>";
+
+#6.Variable Length Arguments
+echo "<h2>6. Variable Length Arguments</h2>";
+function total(...$numbers){
+    return array_sum($numbers);
+}
+
+#function call
+echo "Total of 1+2+3+4+5: " . total(1,2,3,4,5) . "<hr>";
+
