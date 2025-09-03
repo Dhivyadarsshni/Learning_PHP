@@ -76,3 +76,26 @@ list($sum,$diff,$mul,$div)=mathOps(8,4);
 #function call
 echo "For numbers 8 and 4 → Sum: {$sum}, Difference: {$diff}, Multiplication: {$mul}, Division: {$div}";
 echo "<hr>";
+
+#4.Passing Arguments by Reference 
+echo "<h2>Passing Arguments by Reference: function function_name(&\$var)</h2>";
+function addFivebyReference(&$num){
+    $num+=5;
+    echo "the value number inside the function is: ".$num;
+}
+
+$value = 10;
+addFivebyReference($value); echo "<br>";
+echo "the value number outside the function is: ".$value;
+echo "<hr>";
+
+#5.Passing Arguments by Value 
+echo "<h2>Passing Arguments by Value: function function_name(\$var)</h2>";
+function addFivebyValue($num){
+    $num+=5;
+    echo "the value number inside the function is: ".$num;
+}
+
+$value = 10;
+addFivebyValue($value); echo "<br>";
+echo "the value number outside the function is: ".$value;
