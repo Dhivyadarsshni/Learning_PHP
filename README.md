@@ -13,7 +13,7 @@ This repository contains my PHP learning journey, from basics to mini-projects.
 - Arrays and types of arrays (✓) 
 - Built in Functions (✓) 
 - User Defined Functions (✓) 
-- Scopes
+- Scopes (✓) 
 - Constants
 - Loops
 - include -> function
@@ -41,10 +41,15 @@ This repository contains my PHP learning journey, from basics to mini-projects.
 💡 _Every commit here is part of my growth!_
 
 # References
+
 1.Youtube: https://youtu.be/l4_Vn-sTBL8 - Dani Krossing
+
 2.         https://youtu.be/zZ6vybT1HQs - Bro Code
+   
 3.Udemy  : The Complete Full-Stack Web Development Bootcamp - Dr Angela Yu
+
 4.         PHP Web Design Bootcamp with MySQL and PostgreSQL Database - Emenwa Global, George Steve, Juliet Rona
+
 5.AI     : Chatgpt, Gemini AI
 
 
