@@ -33,3 +33,7 @@ include "AbstractClassMethods.php";
 echo "<h3><u>7.Interfaces</u></h3>";
 
 include "Interfaces.php";
+
+echo "<h3><u>8.Traits</u></h3>";
+
+include "traits.php";
