@@ -14,9 +14,9 @@ This repository contains my PHP learning journey, from basics to mini-projects.
 - Built in Functions (✓) 
 - User Defined Functions (✓) 
 - Scopes (✓) 
-- Constants
-- Loops
-- include -> function
+- Constants (✓) 
+- Loops (✓) 
+- include -> function (✓) 
 - OOP in php
 - How to set a DB
 - Create DB tables
