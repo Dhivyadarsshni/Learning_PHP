@@ -1,7 +1,7 @@
 <?php
 #1. Single Inheritance
 
-echo "<h2>Single Inheritance</h2>";
+echo "<h3>Single Inheritance</h3>";
 
 class Dog {
     public $name;
@@ -23,7 +23,7 @@ echo "<br>";
 
 #2. Multi-level Inheritance
 
-echo "<h2>Multi-level Inheritance</h2>";
+echo "<h3>Multi-level Inheritance</h3>";
 
 class Grandparent{
     function property(){
@@ -44,7 +44,7 @@ echo $obj->property();
 
 #3. Hierarchical Inheritance
 
-echo "<h2>Hierarchical Inheritance</h2>";
+echo "<h3>Hierarchical Inheritance</h3>";
 class Animal{
     public $name;
 
@@ -76,7 +76,7 @@ echo "<br>";
 
 #4. Hybrid Inheritance
 
-echo "<h2>Hybrid Inheritance</h2>";
+echo "<h3>Hybrid Inheritance</h3>";
 
 class CEO{
     function ceo_speaks(){
@@ -98,7 +98,7 @@ class Junior1 extends SrManager{
 }
 class Junior2 extends SrManager{
     function junior2_speaks(){
-        echo "Junior 2: On it , Sir";
+        echo "Junior 2: Aye Aye, Captain";
     }
 }
 
@@ -115,5 +115,4 @@ $akshara = new Junior2();
 $akshara->ceo_speaks(); echo "<br>";
 $akshara->srManager_speaks(); echo "<br>";
 $akshara->junior2_speaks(); echo "<br>";
-
-echo "<br>";
+ echo "<br>";
