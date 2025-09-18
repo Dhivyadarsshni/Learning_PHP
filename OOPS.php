@@ -13,3 +13,7 @@ include "ClassesAndObjects.php";
 echo "<h3><u>Constructors and Destructors</u></h3>";
 
 include "ConstructorsAndDestructors.php";
+
+echo "<h3><u>Access Modifiers</u></h3>";
+
+include "AccessModifiers.php";
