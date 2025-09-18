@@ -18,6 +18,17 @@ This repository contains my PHP learning journey, from basics to mini-projects.
 - Loops (✓) 
 - include -> function (✓) 
 - OOP in php
+    - Classes and Objects (✓) 
+    - Constructor and Destructor (✓) 
+    - Access Modifiers (✓) 
+    - Inheritance (✓) 
+    - Class Constants (✓) 
+    - Abstract Classes (✓) 
+    - Interfaces (✓) 
+    - Traits (✓) 
+    - Static Methods and Properties
+    - Namespaces
+    - Iterables
 - How to set a DB
 - Create DB tables
 - Insert/Delete DB data
@@ -50,6 +61,11 @@ Udemy:
 3.         The Complete Full-Stack Web Development Bootcamp - Dr Angela Yu
 4.         PHP Web Design Bootcamp with MySQL and PostgreSQL Database - Emenwa Global, George Steve, Juliet Rona
 
-5.AI     : Chatgpt, Gemini AI
+Websites:
+
+5.      https://www.w3schools.com/php/
+6.      https://www.tutorialspoint.com/php/
+
+6.AI     : Chatgpt, Gemini AI
 
 
