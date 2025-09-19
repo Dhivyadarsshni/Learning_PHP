@@ -37,3 +37,11 @@ include "Interfaces.php";
 echo "<h3><u>8.Traits</u></h3>";
 
 include "traits.php";
+
+echo "<h3><u>9.Encapsulation</u></h3>";
+
+include "Encapsulation.php";
+
+echo "<h3><u>10.Abstraction</u></h3>";
+
+include "Abstraction.php";
