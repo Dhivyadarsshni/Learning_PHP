@@ -38,6 +38,10 @@ echo "<h3><u>8.Static Methods</u></h3>";
 
 include "StaticMethods.php";
 
+echo "<h3><u>8.Static Properties</u></h3>";
+
+include "StaticProperties.php";
+
 echo "<p><i><b>Encapsulation</b> → hide data <br>
 <b>Abstraction</b> → force implementation <br>
 <b>Inheritance </b>→ reuse code <br>
